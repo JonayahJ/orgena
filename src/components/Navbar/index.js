@@ -27,7 +27,7 @@ const Navbar = () => {
                             <NavLinks to="/contact">Contact</NavLinks>
                         </NavItem>
                         <NavBtn>
-                            <NavBtnLink to="/signup">Signup</NavBtnLink>
+                            <NavBtnLink to="/schedule">Talk with Us</NavBtnLink>
                         </NavBtn>
                     </NavMenu>
                 </NavbarContainer>
