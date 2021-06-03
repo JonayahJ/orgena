@@ -2,18 +2,18 @@ import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SidebarBtnWrap, SidebarRoute } from "./SidebarElements"
 import { FaChevronDown } from "react-icons/fa"
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer>
-            <Icon>
+        <SidebarContainer isOpen={isOpen} onClick={toggle} >
+            <Icon onClick={toggle} >
                 <CloseIcon />
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="/">Home</SidebarLink>
-                    <SidebarLink to="#">About &nbsp; <FaChevronDown /></SidebarLink>
-                    <SidebarLink to="/services">Services</SidebarLink>
-                    <SidebarLink to="/contact">Contact</SidebarLink>
+                    <SidebarLink to="/" onClick={toggle}>Home</SidebarLink>
+                    <SidebarLink to="#" onClick={toggle}>About &nbsp; <FaChevronDown /></SidebarLink>
+                    <SidebarLink to="/services" onClick={toggle}>Services</SidebarLink>
+                    <SidebarLink to="/contact" onClick={toggle}>Contact</SidebarLink>
                 </SidebarMenu>
                 <SidebarBtnWrap>
                     <SidebarRoute to="/schedule">Talk with Us</SidebarRoute>

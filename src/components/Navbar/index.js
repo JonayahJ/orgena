@@ -2,7 +2,7 @@ import React from 'react'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from "./NavbarElements"
 import { FaBars, FaChevronDown } from "react-icons/fa"
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
@@ -10,7 +10,7 @@ const Navbar = () => {
                     <NavLogo to="/">
                         <img src="logo_white.png" height="100px" width="auto" alt="Orgena Consulting logo" />
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle} >
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
