@@ -26,10 +26,10 @@ const HeroSection = () => {
             </HeroBG>
             <HeroContent>
                 <HeroH1>
-                    Dedicated to helping you do the heavy-lifting needed to grow your business. 
+                    Dedicated to helping you do the heavy-lifting needed to grow your business
                 </HeroH1>
                 <HeroP>
-                    A trusted helping hand as you achieve higher heights.
+                    A trusted helping hand to guide you as you achieve higher heights
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
