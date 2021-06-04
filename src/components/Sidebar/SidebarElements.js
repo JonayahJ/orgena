@@ -51,7 +51,7 @@ export const SidebarLink = styled(Link)`
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
     list-style: none;
     transition: 0.3s ease-in-out;
@@ -72,11 +72,11 @@ export const SidebarBtnWrap = styled.div`
 
 export const SidebarRoute = styled(Link)`
     border-radius: 5px;
-    background: var(--bitter-lemon);
+    background: var(--satin-sheen-gold);
     white-space: nowrap;
     padding: 16px 64px;
-    color: var(--dark-slate-gray);
-    font-size: 16px;
+    color: #fff;
+    font-size: 28px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -85,7 +85,7 @@ export const SidebarRoute = styled(Link)`
     
     &:hover {
         transition all 0.3s ease-in-out;
-        background: var(--satin-sheen-gold);
-        color: var(--dark-slate-gray);
+        background: #fff;
+        color: var(--satin-sheen-gold);
     }
 `;

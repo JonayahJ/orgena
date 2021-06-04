@@ -90,16 +90,16 @@ export const NavLinks = styled(Link)`
     cursor: pointer;
 
     &.active {
-        border-bottom: 3px solid var(--bitter-lemon);
+        border-bottom: 3px solid var(--satin-sheen-gold);
     }
 `;
 
 export const NavBtnLink = styled(Link)`
     border-radius: 5px;
-    background: var(--bitter-lemon);
+    background: var(--satin-sheen-gold);
     white-space: nowrap;
     padding: 10px 22px;
-    color: var(--dark-slate-gray);
+    color: #fff;
     font-size: 16px;
     outline: none;
     border: none;
@@ -109,7 +109,7 @@ export const NavBtnLink = styled(Link)`
 
     &:hover {
         transition: all 0.3s ease-in-out;
-        background: var(--dark-slate-gray);
-        color: var(--bitter-lemon);
+        background: #fff;
+        color: var(--satin-sheen-gold);
     }
 `;
