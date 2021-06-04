@@ -29,7 +29,7 @@ const HeroSection = () => {
                     Dedicated to helping you do the heavy-lifting needed to grow your business
                 </HeroH1>
                 <HeroP>
-                    A trusted helping hand to guide you as you achieve higher heights
+                    A trusted hand to guide you as you achieve higher heights
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
