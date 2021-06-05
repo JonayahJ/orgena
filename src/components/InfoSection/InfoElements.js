@@ -54,7 +54,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-    color: var(--bitter-lemon);
+    color: ${({topText}) => (topText ? "var(--bitter-lemon)" : "var(--satin-sheen-gold)")};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
