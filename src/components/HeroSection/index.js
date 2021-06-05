@@ -5,12 +5,11 @@ import {
     VideoBG, 
     HeroContent, 
     HeroH1, 
-    // HeroSub, 
     HeroP, 
     HeroBtnWrapper, 
     ArrowForward, 
-    ArrowRight, 
-    Button } from "./HeroElements"
+    ArrowRight } from "./HeroElements"
+import { Button } from "../ButtonElements"
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
