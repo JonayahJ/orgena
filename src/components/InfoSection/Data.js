@@ -1,6 +1,6 @@
 // Content for info sections
 export const homeObjOne = {
-    id: "about",
+    id: "about-us",
     lightBG: false,
     topText: true,
     lightText: true,
@@ -18,7 +18,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: "about",
+    id: "effective-solutions",
     lightBG: true,
     topText: false,
     lightText: false,
@@ -36,7 +36,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: "about",
+    id: "decision-making",
     lightBG: false,
     topText: true,
     lightText: true,
