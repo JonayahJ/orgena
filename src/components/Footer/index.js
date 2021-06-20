@@ -68,7 +68,7 @@ const Footer = () => {
                             <img src="logo_white.png" height="100px" width="auto" alt="Orgena Consulting logo" />
                         </SocialLogo>
                         <WebsiteRights>
-                            Orgena Consulting © 2020 - {new Date().getFullYear()} All rights reserved. 
+                            Orgena Consulting © 2020 - {new Date().getFullYear()}.  All rights reserved. 
                         </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Facebook">
