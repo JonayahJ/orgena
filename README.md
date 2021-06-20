@@ -14,6 +14,9 @@ npm install
 
 To contribute to this website, please contact [Jo at Think Halcyon](mailto:jonayah@thinkhalcyon.com).  All pull requests and major changes need to be authorized by the Think Halcyon team and the owners of Orgena Consulting.
 
+## Netlify Status
+
+This website is hosted by Netlify.  The badge below shows the current status of the most recent deployment.  Should you have any questions, please reach out to [Jo at Think Halcyon](mailto:jonayah@thinkhalcyon.com).
 
 <!-- Status Badge -->
 [![Netlify Status](https://api.netlify.com/api/v1/badges/81758582-6b93-4445-8c50-81d4433a3dfb/deploy-status)](https://app.netlify.com/sites/orgena-consulting/deploys)
