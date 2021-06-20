@@ -6,6 +6,8 @@ import SchedulePage from "./pages/schedule";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Footer from "./components/Footer";
+import ContactPage from "./pages/contact";
+import TestimonialsPage from "./pages/testimonials";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +23,8 @@ function App() {
       <Switch>
         <Route path="/"  component={Home} exact />
         <Route path="/schedule"  component={SchedulePage} exact />
+        <Route path="/contact"  component={ContactPage} exact />
+        <Route path="/testimonials"  component={TestimonialsPage} exact />
       </Switch>
       <Footer />
     </Router>

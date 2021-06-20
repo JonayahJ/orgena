@@ -2,7 +2,7 @@
 export const homeObjOne = {
     id: "about-us",
     lightBG: false,
-    topText: true,
+    topText: false,
     lightText: true,
     lightTextDesc: true,
     topLine: "About Us",
@@ -12,8 +12,8 @@ export const homeObjOne = {
     imgStart: false,
     img: ("../../images/svg-1.svg"),
     alt: "Shake Hands",
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: false,
 }
 
@@ -38,7 +38,7 @@ export const homeObjTwo = {
 export const homeObjThree = {
     id: "decision-making",
     lightBG: false,
-    topText: true,
+    topText: false,
     lightText: true,
     lightTextDesc: true,
     topLine: "Decision Making",
@@ -48,7 +48,7 @@ export const homeObjThree = {
     imgStart: false,
     img: ("../../images/svg-3.svg"),
     alt: "Small Business",
-    dark: true,
-    primary: true,
+    dark: false,
+    primary: false,
     darkText: false,
 }
