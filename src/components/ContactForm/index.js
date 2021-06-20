@@ -16,7 +16,7 @@ const Contact = () => {
       <>
           <FormWrap>
             <FormContent>
-              <Form method="post" name="Contact Form" netlify netlify-honeypot="bot-field" hidden>
+              <Form method="post" name="Contact Form" netlify data-netlify="true">
               <input type="hidden" name="form-name" value="Contact Form" />
                 <FormH1>Send us a message</FormH1>
                 <Text>Have a question? Need to reach out?  Use the form below to get in touch.</Text>
