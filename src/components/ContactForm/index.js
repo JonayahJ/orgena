@@ -47,6 +47,8 @@ export function ContactForm () {
     // Setting up the returned values
     const formik = useFormik({
         initialValues: {
+            "bot-field": "",
+            "form-name": "Contact Form",
             name: "",
             email:"",
             message: ""
