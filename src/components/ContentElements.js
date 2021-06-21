@@ -31,7 +31,7 @@ export const ContentH1 = styled.h1`
 export const ContentH2 = styled.h2`
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #404040;
+    color: var(--satin-sheen-gold);
     font-size: 2rem;
     font-weight: 600;
     text-align: left;

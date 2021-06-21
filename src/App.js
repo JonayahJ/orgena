@@ -13,6 +13,7 @@ import ConsultantsPage from "./pages/consultants";
 import AboutUsPage from "./pages/about";
 import TermsPage from "./pages/terms";
 import PrivacyPage from "./pages/privacy";
+import CookiesPage from "./pages/cookies";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -30,6 +31,7 @@ function App() {
         <Route path="/about-us"  component={AboutUsPage} exact />
         <Route path="/consultants"  component={ConsultantsPage} exact />
         <Route path="/contact"  component={ContactPage} exact />
+        <Route path="/cookies"  component={CookiesPage} exact />
         <Route path="/privacy"  component={PrivacyPage} exact />
         <Route path="/schedule"  component={SchedulePage} exact />
         <Route path="/services"  component={ServicesPage} exact />

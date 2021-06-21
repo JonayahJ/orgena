@@ -1,9 +1,10 @@
 import React from 'react'
+import TermsOfService from '../components/Terms'
 
 const TermsPage = () => {
     return (
         <div>
-            <h1>Terms of Service</h1>
+            <TermsOfService />
         </div>
     )
 }

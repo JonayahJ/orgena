@@ -56,7 +56,7 @@ const Footer = () => {
                         {/* Legal */}
                         <FooterLinkItems>
                             <FooterLinkTitle>Legal</FooterLinkTitle>
-                                {/* <FooterLink to="#">Cookie Policy</FooterLink> */}
+                                <FooterLink to="/cookies">Cookie Policy</FooterLink>
                                 <FooterLink to="/terms">Terms of Service</FooterLink>
                                 <FooterLink to="/privacy">Privacy Policy</FooterLink>
                         </FooterLinkItems>
