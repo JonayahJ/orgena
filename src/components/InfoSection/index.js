@@ -15,7 +15,7 @@ import {
     ImgWrap 
 } from './InfoElements'
 
-const InfoSection = ({ lightBG, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, topText }) => {
+const InfoSection = ({ lightBG, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2, topText, link }) => {
     return (
         <>
             <InfoContainer lightBG={lightBG} id={id}>
@@ -28,7 +28,7 @@ const InfoSection = ({ lightBG, id, imgStart, topLine, lightText, headline, dark
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <Button 
-                                        to="/about"
+                                        to={link}
                                         primary={ primary ? 1 : 0 }
                                         dark={ dark ? 1 : 0 }
                                         dark2={ dark2 ? 1 : 0 }

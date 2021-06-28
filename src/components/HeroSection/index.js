@@ -35,8 +35,6 @@ const HeroSection = () => {
                         to="schedule" 
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
-                        fontBig="true"
-
                         >
                         Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>

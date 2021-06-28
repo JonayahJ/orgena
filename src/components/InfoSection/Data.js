@@ -15,6 +15,7 @@ export const homeObjOne = {
     dark: false,
     primary: false,
     darkText: false,
+    link: "/about"
 }
 
 export const homeObjTwo = {
@@ -33,6 +34,7 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
+    link: "/services"
 }
 
 export const homeObjThree = {
@@ -51,4 +53,24 @@ export const homeObjThree = {
     dark: false,
     primary: false,
     darkText: false,
+    link: "/schedule"
+}
+
+export const aboutObjOne = {
+    id: "intro",
+    lightBG: true,
+    topText: false,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Who We Are",
+    headline: "About Us",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec et odio pellentesque diam volutpat commodo sed. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Nisi est sit amet facilisis. Porttitor rhoncus dolor purus non enim praesent elementum. Quis commodo odio aenean sed adipiscing. Nibh mauris cursus mattis molestie. Ac turpis egestas integer eget aliquet nibh. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Ac tortor vitae purus faucibus ornare suspendisse. Dictum varius duis at consectetur. Quis auctor elit sed vulputate mi sit. Diam donec adipiscing tristique risus nec feugiat in fermentum posuere. Id cursus metus aliquam eleifend mi in nulla.",
+    buttonLabel: "Learn more",
+    imgStart: false,
+    img: ("../../images/svg-2.svg"),
+    alt: "Growth Analytics",
+    dark: false,
+    primary: false,
+    darkText: true,
+    link: "/services"
 }

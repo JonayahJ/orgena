@@ -32,3 +32,18 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.home,
+.about,
+.consultants,
+.contact,
+.legal,
+.services,
+.scheduler,
+.testimonials {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}

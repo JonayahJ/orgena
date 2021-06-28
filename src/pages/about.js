@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+// import InfoSection from '../components/InfoSection';
+// import { aboutObjOne } from '../components/InfoSection/Data';
 
 const AboutUsPage = () => {
     return (
-        <div>
-            <h1>About Us page</h1>
+        <div className="about">
         </div>
     )
 }

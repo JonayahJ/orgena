@@ -1,8 +1,40 @@
-import React from 'react'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from "./NavbarElements"
-import { FaBars, FaChevronDown } from "react-icons/fa"
+import React, { useState } from 'react';
+import Dropdown from './Dropdown';
+import { 
+    Nav, 
+    NavbarContainer, 
+    NavLogo, 
+    MobileIcon, 
+    NavMenu, 
+    NavItem, 
+    NavLinks, 
+    NavBtn, 
+    NavBtnLink 
+} from "./NavbarElements";
+import { 
+    FaBars, 
+    FaCaretDown
+} from "react-icons/fa";
 
 const Navbar = ({toggle}) => {
+    const [dropdown, setDropdown] = useState(false);
+
+    const onMouseEnter = () => {
+        if(window.innerWidth < 960) {
+            setDropdown(false)
+        } else {
+            setDropdown(true)
+        }
+    };
+    
+    const onMouseLeave = () => {
+        if(window.innerWidth < 960) {
+            setDropdown(false)
+        } else {
+            setDropdown(false)
+        }
+    };
+
     return (
         <>
             <Nav>
@@ -17,12 +49,18 @@ const Navbar = ({toggle}) => {
                         <NavItem>
                             <NavLinks to="/">Home</NavLinks>
                         </NavItem>
-                        <NavItem>
-                            <NavLinks to="/about">About &nbsp; <FaChevronDown /> </NavLinks>
+                        <NavItem
+                            onMouseEnter={onMouseEnter}
+                            onMouseLeave={onMouseLeave}
+                        >
+                            <NavLinks to="#">About &nbsp; <FaCaretDown /> </NavLinks> 
+                            {/* If the dropdown is clicked, display the dropdown link options */}
+                            {dropdown && <Dropdown />}
                         </NavItem>
                         <NavItem>
                             <NavLinks to="/services">Services</NavLinks>
                         </NavItem>
+                        
                         <NavItem>
                             <NavLinks to="/contact">Contact</NavLinks>
                         </NavItem>
