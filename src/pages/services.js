@@ -1,9 +1,15 @@
 import React from 'react'
+import { seed, seedling, sprout } from '../components/Services/Data'
+import ServicesSection from '../components/Services/ServicesContent'
+import AllCards from '../components/Services/servicesPage'
 
 const ServicesPage = () => {
     return (
         <div>
-            <h1>These are our services</h1>
+            <ServicesSection { ...seed } />
+            <ServicesSection { ...sprout } />
+            <ServicesSection { ...seedling } />
+            <AllCards />
         </div>
     )
 }

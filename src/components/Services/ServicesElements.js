@@ -86,3 +86,34 @@ export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
 `
+export const IconWrap = styled.div`
+    max-width: 555px;
+    height: 100%;
+`;
+
+export const Icon = styled.img`
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding-right: 0;
+`
+
+export const GTWrap = styled.div`
+    max-width: 555px;
+    height: 100%;
+`;
+
+export const GreyText = styled.h2`
+  margin-bottom: 24px;
+  font-size: 200px;
+  line-height: 1.1;
+  font-weight: 800;
+  color: var(--satin-sheen-gold);
+
+  @media screen and (max-width: 768px){
+      font-size: 175px;
+  }
+
+  @media screen and (max-width: 480px){
+      font-size: 125px;
+  }
+`;
