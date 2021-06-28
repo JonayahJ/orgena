@@ -1,9 +1,10 @@
 import React from 'react'
+import Consultants from '../components/Consultants'
 
 const ConsultantsPage = () => {
     return (
         <div>
-            <h1>These are our consultants</h1>
+            <Consultants />
         </div>
     )
 }
