@@ -46,20 +46,24 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
     margin-bottom: 24px;
-    font-size: 55px;
+    font-size: 45px;
     line-height: 1.1;
     font-weight: 600;
     color: #010606;
 
     @media screen and (max-width: 480px){
-        font-size: 40px;
+        font-size: 30px;
     }
 `;
 
 export const Subtitle = styled.p`
     max-width: 1100px;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     font-size: 22px;
     line-height: 30px;
     color: #010606;
+
+    @media screen and (max-width: 480px){
+        font-size: 18px;
+    }
 `;

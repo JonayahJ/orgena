@@ -5,7 +5,7 @@ import {
     VideoBG, 
     HeroContent, 
     HeroH1, 
-    HeroP, 
+    // HeroP, 
     HeroBtnWrapper, 
     ArrowForward, 
     ArrowRight } from "../HeroSection/HeroElements"
@@ -25,11 +25,11 @@ const AboutHero = () => {
             </HeroBG>
             <HeroContent>
                 <HeroH1>
-                    About Us
+                    About Orgena Consulting
                 </HeroH1>
-                <HeroP>
+                {/* <HeroP>
                     Lorem ipsum dolor sit exitus mundus est.
-                </HeroP>
+                </HeroP> */}
                 <HeroBtnWrapper>
                     <Button 
                         to="schedule" 
