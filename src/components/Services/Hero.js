@@ -1,25 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { 
     HeroContainer, 
     HeroBG, 
+    VideoBG, 
     HeroContent, 
-    HeroH1
+    HeroH1, 
+    // HeroP, 
+    HeroBtnWrapper, 
+    ArrowForward, 
+    ArrowRight 
 } from "../HeroSection/HeroElements"
+import { Button } from "../ButtonElements"
 
-const HeroSection = () => {
-    
+const ServicesHero = () => {
+    const [hover, setHover] = useState(false)
+
+    const onHover = () => {
+        setHover(!hover)
+    }
+
     return (
         <HeroContainer>
             <HeroBG>
-                <img src="../../images/BlackMan1.png" alt="Black man working on a laptop"/>
+            <VideoBG autoPlay loop muted src="../../videos/video5.mp4" type="video/mp4" />
             </HeroBG>
             <HeroContent>
                 <HeroH1>
                     Our Services
                 </HeroH1>
+                <HeroBtnWrapper>
+                    <Button 
+                        to="schedule" 
+                        onMouseEnter={onHover} 
+                        onMouseLeave={onHover}
+                        >
+                        Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                    </Button>
+                </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
     )
 }
 
-export default HeroSection
+export default ServicesHero

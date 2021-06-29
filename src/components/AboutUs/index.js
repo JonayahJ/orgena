@@ -21,7 +21,7 @@ const AboutHero = () => {
     return (
         <HeroContainer>
             <HeroBG>
-                <VideoBG autoPlay loop muted src="../../videos/video2.mp4" type="video/mp4" />
+                <VideoBG autoPlay loop muted src="../../videos/video4.mp4" type="video/mp4" />
             </HeroBG>
             <HeroContent>
                 <HeroH1>
