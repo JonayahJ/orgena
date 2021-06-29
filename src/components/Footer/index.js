@@ -15,8 +15,8 @@ import {
     SocialIconLink
 } from "./FooterElements"
 import {
-    FaFacebook,
-    FaGooglePlusG,
+    // FaFacebook,
+    // FaGooglePlusG,
     FaInstagram,
     FaTwitter,
   } from 'react-icons/fa';
@@ -41,15 +41,15 @@ const Footer = () => {
                                 <FooterLink to="/schedule">Book Consultation</FooterLink>
                                 <FooterLink to="/contact">Contact Us</FooterLink>
                                 <a href="mailto:support@orgenaconsulting.com" className="footerLink">Email Us</a>
-                                <a href="tel:1234567890" className="footerLink">+1 (123)456-7890</a>
+                                <a href="tel:1234567890" className="footerLink">(310) 363-0237</a>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         {/* Social Media */}
                         <FooterLinkItems>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <a href="https://facebook.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Facebook</a>
-                                <a href="https://google.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Google+</a>
+                                {/* <a href="https://facebook.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Facebook</a>
+                                <a href="https://google.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Google+</a> */}
                                 <a href="https://instagram.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Instagram</a>
                                 <a href="https://twitter.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Twitter</a>
                         </FooterLinkItems>
@@ -71,15 +71,16 @@ const Footer = () => {
                             Orgena Consulting © 2020 - {new Date().getFullYear()}.  All rights reserved. 
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Facebook">
+                            {/* <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
                             <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Google+">
                                 <FaGooglePlusG />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
                             <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
+                            &emsp;&emsp;
                             <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconLink>
