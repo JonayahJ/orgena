@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
     background: ${({lightBG}) => (lightBG ? "#f9f9f9" : "#495057")};
 
     @media screen and (max-width: 768px){
-        padding: 100px 0;
+        padding: 50px 0;
     }
 `;
 
@@ -19,8 +19,13 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     justify-content: center;
+
+    @media screen and (max-width: 768px){
+        padding-top: 15px;
+        padding-bottom: 1px;
+    }
 `;
 
 export const InfoRow = styled.div`
