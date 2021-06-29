@@ -6,7 +6,7 @@ import {
     ServicesCard, 
     ServicesIcon, 
     ServicesH2, 
-    ServicesP 
+    // ServicesP 
 } from "./ServicesElements"
 
 const Services = () => {
@@ -18,19 +18,19 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src="../../images/svg-4.svg" />
                     <ServicesH2>Market Research Assistance</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP>
+                    {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
                 {/* Card2 */}
                 <ServicesCard>
                     <ServicesIcon src="../../images/svg-5.svg" />
                     <ServicesH2>Strategy Development</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP>
+                    {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
                 {/* Card3 */}
                 <ServicesCard>
                     <ServicesIcon src="../../images/svg-6.svg" />
-                    <ServicesH2>Break Even Analysis</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP>
+                    <ServicesH2>Break Even <br /> Analysis</ServicesH2>
+                    {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
