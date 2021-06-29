@@ -33,6 +33,13 @@ export function ContactForm () {
         else if(values.email.length < 4){
             errors.email = "Must be 5 characters or more."
         }
+        // Phone Validation
+        if(!values.phone){
+            errors.phone = "Required"
+        }
+        else if(values.phone.length < 10){
+            errors.phone = "Must be a 10-digit telephone number."
+        }
         // Message Validation
         if(!values.email){
             errors.email = "Required"
@@ -91,6 +98,19 @@ export function ContactForm () {
                     id="email" 
                 />
                 { formik.touched.email && formik.errors.email ? <div>{formik.errors.email}</div> : null }
+                
+                {/* Phone */}
+                <FormLabel htmlFor='phone'>Phone Number</FormLabel>
+                <FormInput 
+                    type='phone' 
+                    name="phone" 
+                    required 
+                    onChange={formik.handleChange} 
+                    value={formik.values.phone} 
+                    onBlur={formik.handleBlur}
+                    id="phone" 
+                />
+                { formik.touched.phone && formik.errors.phone ? <div>{formik.errors.email}</div> : null }
                 
                 {/* Message */}
                 <FormLabel htmlFor='message'>Message</FormLabel>
