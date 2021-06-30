@@ -25,7 +25,7 @@ const Consultants = ({ lightText, darkText, topText }) => {
                     <InfoRow>
                         <Column1 style={{ marginTop: "150px" }}>
                             <ImgWrap>
-                                <Img src="../../images/BlackMan2.png" alt="Anwar Billy" />
+                                <Img src="../../images/Anwar.png" alt="Anwar Billy" />
                             </ImgWrap>
                             <TextWrapper>
                                 <Heading2>Anwar Billy</Heading2>

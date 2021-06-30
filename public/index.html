@@ -29,16 +29,18 @@
   <body>
     <!-- Hidden Form -->
     <form
-      data-netlify="true"
-      data-netlify-recaptcha="true"
-      hidden
       name="contact"
+      method="POST"
+      netlify 
+      data-netlify="true"
       netlify-honeypot="bot-field"
+      hidden
+      enctype="application/x-www-form-urlencoded"
     >
-      <input type="text" name="username" />
+      <input type="text" name="name" />
       <input type="email" name="email" />
+      <input type="phone" name="phone" />
       <input type="textarea" name="message" />
-      <input name="bot-field" type="hidden" />
     </form>
 
     <noscript>You need to enable JavaScript to run this app.</noscript>
