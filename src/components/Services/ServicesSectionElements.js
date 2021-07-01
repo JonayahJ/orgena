@@ -65,7 +65,7 @@ export const Heading = styled.h1`
     text-align: left;
 
     @media screen and (max-width: 480px){
-        font-size: 25px;
+        font-size: 30px;
     }
 `;
 
@@ -75,4 +75,8 @@ export const Subtitle = styled.p`
     font-size: 20px;
     line-height: 30px;
     color: #010606;
+
+    @media screen and (max-width: 480px){
+        font-size: 16px;
+    }
 `;
