@@ -23,7 +23,7 @@ const Consultants = ({ lightText, darkText, topText }) => {
                         Our Co-Founders
                     </Heading>
                     <InfoRow>
-                        <Column1 style={{ marginTop: "150px" }}>
+                        <Column1>
                             <ImgWrap>
                                 <Img src="../../images/Anwar.png" alt="Anwar Billy" />
                             </ImgWrap>
@@ -42,7 +42,7 @@ const Consultants = ({ lightText, darkText, topText }) => {
                             </TextWrapper>
                         </Column1>
 
-                        <Column2 style={{ marginTop: "-238px" }}>
+                        <Column2>
                             <ImgWrap>
                                 <Img src="../../images/Herbert.png" alt="Herbert Washington" />
                             </ImgWrap>
