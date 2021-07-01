@@ -14,6 +14,7 @@ import AboutUsPage from "./pages/about";
 import TermsPage from "./pages/terms";
 import PrivacyPage from "./pages/privacy";
 import CookiesPage from "./pages/cookies";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,8 +25,9 @@ function App() {
   
   return (
     <Router>
+      <ScrollToTop />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />   
+      <Navbar toggle={toggle} /> 
       <Switch>
         <Route path="/"  component={Home} exact />
         <Route path="/about-us"  component={AboutUsPage} exact />
