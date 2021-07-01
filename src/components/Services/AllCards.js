@@ -10,7 +10,7 @@ import {
 import { 
     ServicesContainer,
     ServicesWrapper
-} from './ServicesPageElements'
+} from './AllCardsElements'
 
 const AllCards = () => {
     return (

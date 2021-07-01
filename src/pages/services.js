@@ -1,6 +1,6 @@
 import React from 'react';
-import ServicesSection from '../components/Services/ServicesContent';
-import AllCards from '../components/Services/servicesPage';
+import ServicesSection from '../components/Services/ServicesSection';
+import AllCards from '../components/Services/AllCards';
 import ServicesHero from '../components/Services/Hero';
 
 const ServicesPage = () => {

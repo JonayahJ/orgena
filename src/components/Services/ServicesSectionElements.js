@@ -58,14 +58,14 @@ export const TopLine = styled.p`
 export const Heading = styled.h1`
     background: #f9f9f9;
     padding: 25px 0;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.1;
     font-weight: 600;
     color: var(--dark-slate-gray);
     text-align: left;
 
     @media screen and (max-width: 480px){
-        font-size: 45px;
+        font-size: 25px;
     }
 `;
 

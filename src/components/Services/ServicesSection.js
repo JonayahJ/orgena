@@ -8,7 +8,7 @@ import {
     ImgWrap,
     Img,
     Subtitle
-} from './ServiceContentElements';
+} from './ServicesSectionElements';
 
 const ServicesSection = () => {
     return (
