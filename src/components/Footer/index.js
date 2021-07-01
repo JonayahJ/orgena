@@ -40,7 +40,7 @@ const Footer = () => {
                             <FooterLinkTitle>Contact</FooterLinkTitle>
                                 <FooterLink to="/schedule">Book Consultation</FooterLink>
                                 <FooterLink to="/contact">Contact Us</FooterLink>
-                                <a href="mailto:support@orgenaconsulting.com" className="footerLink">Email Us</a>
+                                <a href="mailto:herbert@orgenaconsulting.com" className="footerLink">Email Us</a>
                                 <a href="tel:1234567890" className="footerLink">(310) 363-0237</a>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -50,8 +50,8 @@ const Footer = () => {
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
                                 {/* <a href="https://facebook.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Facebook</a>
                                 <a href="https://google.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Google+</a> */}
-                                <a href="https://instagram.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Instagram</a>
-                                <a href="https://twitter.com" target="_blank" rel="noopenner noreferrer" className="footerLink">Twitter</a>
+                                <a href="https://www.instagram.com/orgenaconsulting/" target="_blank" rel="noopenner noreferrer" className="footerLink">Instagram</a>
+                                <a href="https://twitter.com/orgenaconsult" target="_blank" rel="noopenner noreferrer" className="footerLink">Twitter</a>
                         </FooterLinkItems>
                         {/* Legal */}
                         <FooterLinkItems>
@@ -77,11 +77,11 @@ const Footer = () => {
                             <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Google+">
                                 <FaGooglePlusG />
                             </SocialIconLink> */}
-                            <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/orgenaconsulting/" target="_blank" rel="noopenner noreferrer" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
                             &emsp;&emsp;
-                            <SocialIconLink href="/" target="_blank" rel="noopenner noreferrer" aria-label="Twitter">
+                            <SocialIconLink href="https://twitter.com/orgenaconsult" target="_blank" rel="noopenner noreferrer" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconLink>
                         </SocialIcons>
