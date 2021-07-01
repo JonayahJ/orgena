@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { 
     ServicesContainer, 
     ServicesH1, 
@@ -8,8 +8,20 @@ import {
     ServicesH2, 
     // ServicesP 
 } from "./ServicesElements"
+import { 
+    HeroBtnWrapper, 
+    ArrowForward, 
+    ArrowRight 
+} from "../HeroSection/HeroElements"
+import { Button } from "../ButtonElements"
 
 const Services = () => {
+    const [hover, setHover] = useState(false)
+
+    const onHover = () => {
+        setHover(!hover)
+    }
+
     return (
         <ServicesContainer id="services">
             <ServicesH1>Featured Services</ServicesH1>
@@ -33,6 +45,16 @@ const Services = () => {
                     {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
             </ServicesWrapper>
+            {/* Button */}
+            <HeroBtnWrapper>
+                    <Button 
+                        to="services" 
+                        onMouseEnter={onHover} 
+                        onMouseLeave={onHover}
+                        >
+                        View More {hover ? <ArrowForward /> : <ArrowRight />}
+                    </Button>
+            </HeroBtnWrapper>
         </ServicesContainer>
     )
 }
