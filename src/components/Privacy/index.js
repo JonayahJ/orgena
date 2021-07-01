@@ -111,12 +111,7 @@ const PrivacyPolicy = () => {
             <ContentP>If required by law, we will get your permission or give you the opportunity to opt in to or opt out of, as applicable, any new uses of your personal information. </ContentP>
             
             <ContentH3>Contact Us</ContentH3>
-            <ContentP>For any questions or concerns regarding your privacy, you may contact us using the following details: </ContentP>
-            <ContentP>
-                {/* Email Addresses */}
-                Anwar Billy<br />
-                Herbert Washington
-            </ContentP>
+            <ContentP>For any questions or concerns regarding your privacy, you may contact us using our <a href="/contact" style={{textDecoration: "none", fontStyle: "oblique", color: "var(--satin-sheen-gold)"}}>Contact Form</a>.</ContentP>
         </ContentContainer>
     )
 }
