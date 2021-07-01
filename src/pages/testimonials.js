@@ -1,10 +1,11 @@
 import React from 'react'
+import Testimonials from '../components/Testimonials'
 
 const TestimonialsPage = () => {
     return (
-        <div>
-            <h1>What our clients say</h1>
-        </div>
+        <>
+            <Testimonials />
+        </>
     )
 }
 
