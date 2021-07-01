@@ -7,6 +7,10 @@ export const InfoContainer = styled.div`
     @media screen and (max-width: 768px){
         padding: 50px 0;
     }
+    
+    @media screen and (max-width: 480px){
+        padding: 10px 0;
+    }
 `;
 
 export const ServicesWrapper = styled.div`
@@ -31,6 +35,10 @@ export const ServicesWrapper = styled.div`
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding: 60px 20px;
+
+    @media screen and (max-width: 480px){
+        padding: 10px 0 10px 0;
+    }
 `
 
 export const ImgWrap = styled.div`
@@ -48,7 +56,7 @@ export const Img = styled.img`
 export const TopLine = styled.p`
     color: var(--satin-sheen-gold);
     font-size: 16px;
-    line-height: 16px;
+    line-height: 22px;
     font-weight: 700;
     letter-spacing: 5px;
     text-transform: uppercase;
