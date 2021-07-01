@@ -28,19 +28,19 @@ const Services = () => {
             <ServicesWrapper>
                 {/* Card1 */}
                 <ServicesCard>
-                    <ServicesIcon src="../../images/svg-4.svg" />
+                    <ServicesIcon src="../../images/svg-4.svg" alt="Market Research Assistance" />
                     <ServicesH2>Market Research Assistance</ServicesH2>
                     {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
                 {/* Card2 */}
                 <ServicesCard>
-                    <ServicesIcon src="../../images/svg-5.svg" />
+                    <ServicesIcon src="../../images/svg-5.svg" alt="Strategy Development" />
                     <ServicesH2>Strategy Development</ServicesH2>
                     {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
                 {/* Card3 */}
                 <ServicesCard>
-                    <ServicesIcon src="../../images/svg-6.svg" />
+                    <ServicesIcon src="../../images/svg-6.svg" alt="Break Even Analysis" />
                     <ServicesH2>Break Even <br /> Analysis</ServicesH2>
                     {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>

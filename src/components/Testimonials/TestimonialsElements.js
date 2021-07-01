@@ -115,3 +115,8 @@ export const TestimonialSource = styled.p`
       }
 `;
 
+export const Logo = styled.img`
+    height: 160px;
+    width: 160px;
+    margin-bottom: 10px;
+`;
