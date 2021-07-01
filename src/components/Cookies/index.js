@@ -13,9 +13,9 @@ const CookiePolicy = () => {
             <ContentH1>
                 Cookie Policy
             </ContentH1>
-            <ContentP>We use cookies to help improve your experience of our website at <a href="https://www.orgenaconsulting.com" className="contentLink">https://www.orgenaconsulting.com</a>. This cookie policy is part of Orgena Consulting&#39;s privacy policy. It covers the use of cookies between your device and our site. </ContentP>
+            <ContentP>We use cookies to help improve your experience of this website. This cookie policy is part of Orgena Consulting&#39;s privacy policy. It covers the use of cookies between your device and our site. </ContentP>
             <ContentP>We also provide basic information on third-party services we may use, who may also use cookies as part of their service. This policy does not cover their cookies. </ContentP>
-            <ContentP>If you don’t wish to accept cookies from us, you should instruct your browser to refuse cookies from <a href="https://www.orgenaconsulting.com" className="contentLink">https://www.orgenaconsulting.com</a>. In such a case, we may be unable to provide you with some of your desired content and services. </ContentP>
+            <ContentP>If you don’t wish to accept cookies from us, you should instruct your browser to refuse cookies from this website. In such a case, we may be unable to provide you with some of your desired content and services. </ContentP>
             
             <ContentH3>What is a cookie?</ContentH3>
             <ContentP>A cookie is a small piece of data that a website stores on your device when you visit. It typically contains information about the website itself, a unique identifier that allows the site to recognize your web browser when you return, additional data that serves the cookie’s purpose, and the lifespan of the cookie itself. </ContentP>

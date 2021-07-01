@@ -13,7 +13,7 @@ const PrivacyPolicy = () => {
     return (
         <ContentContainer>
             <ContentH1>Privacy Policy</ContentH1>
-            <ContentP>Your privacy is important to us. It is Orgena Consulting&#39;s policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, <a href="https://www.orgenaconsulting.com" className="contentLink">https://www.orgenaconsulting.com</a>, and other sites we own and operate. </ContentP>
+            <ContentP>Your privacy is important to us. It is Orgena Consulting&#39;s policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across this website, and other sites we own and operate. </ContentP>
             <ContentP>This policy is effective as of 1 July 2021 and was last updated on 1 July 2021.</ContentP>
             
             <ContentH3>Information We Collect</ContentH3>

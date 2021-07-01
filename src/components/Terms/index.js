@@ -13,10 +13,10 @@ const TermsOfService = () => {
         <ContentContainer>
             <ContentH1>Terms of Service</ContentH1>
             <ContentP>
-                These Terms of Service govern your use of the website located at <a href="https://www.orgenaconsulting.com" className="contentLink">https://www.orgenaconsulting.com</a> and any related services provided by Orgena Consulting.
+                These Terms of Service govern your use of this website and any related services provided by Orgena Consulting.
             </ContentP>
             <ContentP>
-                By accessing <a href="https://www.orgenaconsulting.com" className="contentLink">https://www.orgenaconsulting.com</a>, you agree to abide by these Terms of Service and to comply with all applicable laws and regulations. If you do not agree with these Terms of Service, you are prohibited from using or accessing this website or using any other services provided by Orgena Consulting.
+                By accessing this website, you agree to abide by these Terms of Service and to comply with all applicable laws and regulations. If you do not agree with these Terms of Service, you are prohibited from using or accessing this website or using any other services provided by Orgena Consulting.
             </ContentP>
             <ContentP>
                 We, Orgena Consulting, reserve the right to review and amend any of these Terms of Service at our sole discretion. Upon doing so, we will update this page. Any changes to these Terms of Service will take effect immediately from the date of publication.
