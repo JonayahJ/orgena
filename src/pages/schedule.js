@@ -2,7 +2,7 @@ import React from 'react'
 
 const SchedulePage = () => {
     return (
-        <div style={{padding: "100px 0"}}>
+        <div style={{padding: "75px 0"}}>
             <iframe 
                 src="https://app.squarespacescheduling.com/schedule.php?owner=23430819" 
                 title="Schedule Appointment" 

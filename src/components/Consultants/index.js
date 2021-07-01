@@ -44,7 +44,7 @@ const Consultants = ({ lightText, darkText, topText }) => {
 
                         <Column2 style={{ marginTop: "-238px" }}>
                             <ImgWrap>
-                                <Img src="../../images/BlackMan2.png" alt="Herbert Washington" />
+                                <Img src="../../images/Herbert.png" alt="Herbert Washington" />
                             </ImgWrap>
                             <TextWrapper>
                                 <Heading2>Herbert Washington</Heading2>
