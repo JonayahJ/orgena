@@ -119,3 +119,15 @@ export const ContentLI = styled.li`
         font-size: 20px;
       }
 `;
+
+export const SchedulerContainer = styled.div`
+  margin: 45px;
+
+  @media screen and (max-width: 768px) {
+    margin: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin: 15px;
+  }
+`;
