@@ -1,5 +1,5 @@
 import React from 'react';
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import {
   FormWrap,
   FormContent,
@@ -14,26 +14,24 @@ import {
 
 export function ContactForm () {
   
-  // function sendEmail(e) {
-  //   e.preventDefault();
+  function sendEmail(e) {
+    e.preventDefault();
 
-  //   emailjs.sendForm('Orgena-Consulting', 'orgena-consulting', e.target, 'user_csqhBNWWyCJxueDtV9K4x')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  //     e.target.reset()
-  //     alert("Thank you for submitting an inquiry form.  We will be back in touch with you shortly.")
-  // }
+    emailjs.sendForm('Orgena-Consulting', 'orgena-consulting', e.target, 'user_csqhBNWWyCJxueDtV9K4x')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+      alert("Thank you for submitting an inquiry form.  We will be back in touch with you shortly.")
+  }
 
     return (
       <>
           <FormWrap>
             <FormContent>
-              <Form 
-                // onSubmit={sendEmail} 
-              >
+              <Form onSubmit={sendEmail} >
                 <FormH1>Send us a message</FormH1>
                 <Text>Have a question? Need to reach out?  Use the form below to get in touch.</Text>
                 
