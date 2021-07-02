@@ -53,6 +53,11 @@ export const VideoBG = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34
+
+    // @media screen and (max-width: 480px){
+    //     background: url(../../videos/video5.mp4) #000 !important;
+    //     background-size: cover;
+    // }
 `;
 
 export const HeroContent = styled.div`
