@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { 
     HeroContainer, 
     HeroBG, 
-    // VideoBG, 
+    VideoBG, 
     HeroContent, 
     HeroH1, 
     // HeroP, 
@@ -21,8 +21,8 @@ const AboutHero = () => {
     return (
         <HeroContainer>
             <HeroBG>
-                <div dangerouslySetInnerHTML={{ __html: `<VideoBG autoPlay loop controls={false} playsinline muted src="../../videos/video4.mp4" type="video/mp4" poster="../../images/hero2.jpeg" />` }}></div>
-                {/* <VideoBG autoPlay loop controls={false} playsinline muted src="../../videos/video4.mp4" type="video/mp4" poster="../../images/hero2.jpeg" /> */}
+                {/* <div dangerouslySetInnerHTML={{ __html: `<VideoBG autoPlay loop controls={false} playsinline muted src="../../videos/video4.mp4" type="video/mp4" poster="../../images/hero2.jpeg" />` }}></div> */}
+                <VideoBG autoPlay loop controls={false} playsinline muted src="../../videos/video4.mp4" type="video/mp4" poster="../../images/hero2.jpeg" />
             </HeroBG>
             <HeroContent>
                 <HeroH1>
