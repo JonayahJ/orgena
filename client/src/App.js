@@ -15,14 +15,15 @@ import TermsPage from "./pages/terms";
 import PrivacyPage from "./pages/privacy";
 import CookiesPage from "./pages/cookies";
 import ScrollToTop from "./components/ScrollToTop";
-import ReactGa from "react-ga"
+import ReactGa from "react-ga4"
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize("UA-277876631");
+    ReactGa.initialize("G-ZHE8RVV09B");
     
     // Pageviews
-    ReactGa.pageview(window.location.pathname + window.location.search);
+    ReactGa.send("/");
+    
 
   }, [])
 
