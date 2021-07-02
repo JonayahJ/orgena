@@ -23,7 +23,7 @@ const Testimonials = () => {
                 </Grid>
                 <Grid item sm={9}>
                     <TestimonialP>
-                        What I enjoyed about the experience was that Hebert & Anwar took the time out to understand the ins and outs of my business to provide an overall synopsis of where I can improve my business from a financial aspect. In addition, they were very transparent & blunt through the entire process which I valued.
+                        What I enjoyed about the experience was that Herbert & Anwar took the time out to understand the ins and outs of my business to provide an overall synopsis of where I can improve my business from a financial aspect. In addition, they were very transparent & blunt through the entire process which I valued.
                     </TestimonialP>
                     <TestimonialSource>
                         Jhanielle Brown, Pickney Pocket
