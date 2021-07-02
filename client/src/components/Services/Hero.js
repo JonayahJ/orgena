@@ -22,7 +22,7 @@ const ServicesHero = () => {
     return (
         <HeroContainer>
             <HeroBG>
-            <VideoBG autoPlay loop muted playsinline src="../../videos/video5.mp4" type="video/mp4" poster="../../images/hero3.jpeg" />
+                <VideoBG autoPlay loop controls={false} playsinline muted src="../../videos/video5.mp4" type="video/mp4" poster="../../images/hero3.jpeg" />
             </HeroBG>
             <HeroContent>
                 <HeroH1>

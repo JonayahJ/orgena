@@ -29,13 +29,13 @@ const Services = () => {
                 {/* Card1 */}
                 <ServicesCard>
                     <ServicesIcon src="../../images/svg-4.svg" alt="Market Research Assistance" />
-                    <ServicesH2>Market Research Assistance</ServicesH2>
+                    <ServicesH2>Market Research <br /> Assistance</ServicesH2>
                     {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
                 {/* Card2 */}
                 <ServicesCard>
                     <ServicesIcon src="../../images/svg-5.svg" alt="Strategy Development" />
-                    <ServicesH2>Strategy Development</ServicesH2>
+                    <ServicesH2>Strategy <br /> Development</ServicesH2>
                     {/* <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ServicesP> */}
                 </ServicesCard>
                 {/* Card3 */}
