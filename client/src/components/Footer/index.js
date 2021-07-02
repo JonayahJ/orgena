@@ -41,7 +41,7 @@ const Footer = () => {
                                 <FooterLink to="/schedule">Book Consultation</FooterLink>
                                 <FooterLink to="/contact">Contact Us</FooterLink>
                                 <a href="mailto:herbert@orgenaconsulting.com" className="footerLink">Email Us</a>
-                                <a href="tel:1234567890" className="footerLink">(310) 363-0237</a>
+                                <a href="tel:3103630237" className="footerLink">(310) 363-0237</a>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
