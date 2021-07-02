@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { 
     HeroContainer, 
     HeroBG, 
-    VideoBG, 
+    // VideoBG, 
     HeroContent, 
     HeroH1, 
     // HeroP, 
