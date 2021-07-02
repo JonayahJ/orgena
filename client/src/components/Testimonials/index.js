@@ -2,7 +2,7 @@ import React from 'react';
 import { 
     TestimonialContainer,
     TestimonialH1,
-    TestimonialQ,
+    // TestimonialQ,
     TestimonialP,
     TestimonialSource,
     Logo
@@ -48,7 +48,8 @@ const Testimonials = () => {
 
                 {/* Testimonial 3 */}
                 <Grid item sm={3}>
-                    <TestimonialQ>"</TestimonialQ>
+                    {/* <TestimonialQ>"</TestimonialQ> */}
+                    <Logo src="../../images/Testimonial3.png" alt="HTW Health Navigation logo" />
                 </Grid>
                 <Grid item sm={9}>
                     <TestimonialP>
