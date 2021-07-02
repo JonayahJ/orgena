@@ -27,7 +27,7 @@ const ServicesHero = () => {
                     loop 
                     controls={false} 
                     // playsinline 
-                    muted 
+                    muted={true}
                     src="../../videos/video5.mp4" 
                     type="video/mp4" 
                     poster="../../images/hero3.jpeg" 
