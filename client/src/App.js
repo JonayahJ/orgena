@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages";
@@ -15,8 +15,17 @@ import TermsPage from "./pages/terms";
 import PrivacyPage from "./pages/privacy";
 import CookiesPage from "./pages/cookies";
 import ScrollToTop from "./components/ScrollToTop";
+import ReactGa from "react-ga"
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize("G-ZHE8RVV09B");
+    
+    // Pageviews
+    ReactGa.pageview(window.location.pathname + window.location.search);
+
+  }, [])
+
   const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
