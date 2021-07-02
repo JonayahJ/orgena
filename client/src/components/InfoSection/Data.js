@@ -15,7 +15,7 @@ export const homeObjOne = {
     dark: false,
     primary: false,
     darkText: true,
-    link: "/about"
+    link: "/about-us"
 }
 
 export const homeObjTwo = {
