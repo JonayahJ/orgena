@@ -29,7 +29,7 @@ const AboutHero = () => {
                     muted 
                     src="../../videos/video4.mp4" 
                     type="video/mp4" 
-                    poster="../../images/hero2.jpeg"
+                    // poster="../../images/hero2.jpeg"
                 />
             </HeroBG>
             <HeroContent>

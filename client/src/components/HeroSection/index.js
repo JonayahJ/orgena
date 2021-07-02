@@ -29,7 +29,8 @@ const HeroSection = () => {
                     muted 
                     src="../../videos/video3.mp4" 
                     type="video/mp4" 
-                    poster="../../images/hero1.jpeg" />
+                    // poster="../../images/hero1.jpeg" 
+                />
             </HeroBG>
             <HeroContent>
                 <HeroH1>

@@ -30,8 +30,7 @@ const ServicesHero = () => {
                     muted={true}
                     src="../../videos/video5.mp4" 
                     type="video/mp4" 
-                    poster="../../images/hero3.jpeg" 
-
+                    // poster="../../images/hero3.jpeg" 
                 />
             </HeroBG>
             <HeroContent>
