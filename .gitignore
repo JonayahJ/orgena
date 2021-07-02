@@ -3,6 +3,8 @@
 /.pnp
 .pnp.js
 client/node_modules
+server/node_modules
+
 
 # react 
 .DS_*
